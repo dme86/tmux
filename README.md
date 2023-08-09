@@ -1,24 +1,14 @@
 # tmux
 
-[tmux](https://github.com/tmux/tmux) is a terminal multiplexer. It lets you switch easily between several programs in one terminal, detach them (they keep running in the background) and reattach them to a different terminal.
+I usually don't require tmux as frequently, given that I primarily use [dwm on Linux](https://github.com/dme86/dwm) and intend to transition to [yabai on macOS](https://github.com/koekeishiya/yabai). However, there are times when it's beneficial to be familiar with this great terminal multiplexer.
 
-![enter image description here](https://i.imgur.com/IW1Xxbd.png)
+My design is simple so that it should work on every machine.
 
-## install
+|Split Terminal  | Open Window List |
+|--|--|
+| ![enter image description here](https://i.imgur.com/SylZdWl.png) |![enter image description here](https://i.imgur.com/9i0i1Mx.png) |
 
-### Arch 
-
-    pacman -S tmux
-
-
-**Clone or copy tmux.conf from this repo**
-
-    git clone https://github.com/dme86/tmux.git
-
-
-**Execute tmux**
-
-    tmux
+On the left side, you can observe a split terminal (vertical) - on the right side, there's a list view of open windows for selection. At the bottom is my straightforward status bar, which can be customized according to your requirements.
 
 #### Keybindings
 
@@ -33,4 +23,4 @@ I tried out multiple keybinds, but I faced issues due to OS or [neovim](https://
 |`Ctrl/Strg + b` & `"`|Horizontal split |
 |`Ctrl/Strg + b` & `x`|Close pane |
 |`Ctrl/Strg + b` & `;`|go to the ‘last’ (previously used) pane |
-|`Ctrl/Strg + b` & `w`|List windows|
+|`Ctrl/Strg + b` & `w`|List all windows|
