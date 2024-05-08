@@ -22,6 +22,7 @@ I tried out multiple keybinds, but I faced issues due to OS or [neovim](https://
 |`Ctrl/Strg + b` & `c`|Open a new tmux tab at the bottom |
 |`Shift + Ctrl` & `->`|Go to right tab with Arrow key |
 |`Shift + Ctrl` & `<-`|Go to left tab with Arrow key |
+|`Ctrl/Strg + b` & `PgUp/PgDown`|Scroll up / down|
 |`Ctrl/Strg + b` & `,`|Rename tab. Hit `Enter` after typing new name |
 |`Ctrl/Strg + b` & `%`|Vertical split |
 |`Ctrl/Strg + b` & `"`|Horizontal split |
