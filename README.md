@@ -1,6 +1,6 @@
 # tmux
 
-I usually don't require tmux as frequently, given that I primarily use [dwm on Linux](https://github.com/dme86/dwm) and intend to transition to [yabai on macOS](https://github.com/koekeishiya/yabai). However, there are times when it's beneficial to be familiar with this great terminal multiplexer.
+I usually don't require tmux as frequently, given that I primarily use [dwm on Linux](https://github.com/dme86/dwm) and intend to transition to [aerospace on macOS](https://github.com/dme86/aerospace). However, there are times when it's beneficial to be familiar with this great terminal multiplexer.
 
 My design is simple so that it should work on every machine.
 
