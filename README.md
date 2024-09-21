@@ -18,16 +18,18 @@ I tried out multiple keybinds, but I faced issues due to OS or [neovim](https://
 
 | Key | Description |
 |--|--|
-|`Ctrl/Strg + b` & `&`|Show / Hide statusbar at the bottom |
 |`Ctrl/Strg + b` & `c`|Open a new tmux tab at the bottom |
 |`Shift + Ctrl` & `->`|Go to right tab with Arrow key |
 |`Shift + Ctrl` & `<-`|Go to left tab with Arrow key |
 |`Ctrl/Strg + b` & `PgUp/PgDown`|Scroll up / down|
 |`Ctrl/Strg + b` & `,`|Rename tab. Hit `Enter` after typing new name |
+|`Ctrl/Strg + b` & `&`|Close tab |
 |`Ctrl/Strg + b` & `%`|Vertical split |
 |`Ctrl/Strg + b` & `"`|Horizontal split |
 |`Ctrl/Strg + b` & `Arrow Keys`|Move between splits |
-|`Ctrl/Strg + b` & `x`|Close pane |
+|`Ctrl/Strg + b` & press & hold `opt` + Arrow Keys|Resize splits |
+|`Ctrl/Strg + b` & `{`|Swap splits|
+|`Ctrl/Strg + b` & `x`|Close pane/split |
 |`Ctrl/Strg + b` & `z`|Maximize/Minimize pane |
 |`Ctrl/Strg + b` & `;`|go to the ‘last’ (previously used) pane |
 |`Ctrl/Strg + b` & `[`|Enter **copy** mode. Exit with `q` |
@@ -37,3 +39,4 @@ I tried out multiple keybinds, but I faced issues due to OS or [neovim](https://
 > Scrolling in copy mode works via PgUp/Dn
 > Searching in copy mode via  `Shift+/`  (classic vim binds)
 > `q` exits copy mode.
+
