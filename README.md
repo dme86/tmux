@@ -10,30 +10,34 @@ My design is simple so that it should work on every machine.
 
 On the left side, you can observe a split terminal (vertical) - on the right side, there's a list view of open windows for selection. At the bottom is my straightforward status bar, which can be customized according to your requirements.
 
-If no tmux session is running, tmux will start without showing its status bar with my default setup. You can always show/hide it via `Ctrl/Strg + b` & `&`.
+If no tmux session is running, tmux will start without showing its status bar with my default setup. 
+
+## Installation
+
+I am using a plugin manager for tmux. On the first startup, you need to press `Ctrl/Strg + y` followed by `I` to initialize the plugin manager. Then press `Enter` to load all the plugins.
 
 #### Keybindings
 
-I tried out multiple keybinds, but I faced issues due to OS or [neovim](https://github.com/dme86/neovim) defaults. As a result, I'm now using tmux defaults (besides cycling tabs). You have to use a prefix first, like `Ctrl + b`, before pressing a command key:
+I tried out multiple keybinds, but I faced issues due to OS or [neovim](https://github.com/dme86/neovim) defaults. As a result, I'm now using tmux defaults (besides cycling tabs). You have to use a prefix first, like `Ctrl + y`, before pressing a command key:
 
 | Key | Description |
 |--|--|
-|`Ctrl/Strg + b` & `c`|Open a new tmux tab at the bottom |
+|`Ctrl/Strg + y` & `c`|Open a new tmux tab at the bottom |
 |`Shift + Ctrl` & `->`|Go to right tab with Arrow key |
 |`Shift + Ctrl` & `<-`|Go to left tab with Arrow key |
-|`Ctrl/Strg + b` & `PgUp/PgDown`|Scroll up / down|
-|`Ctrl/Strg + b` & `,`|Rename tab. Hit `Enter` after typing new name |
-|`Ctrl/Strg + b` & `&`|Close tab |
-|`Ctrl/Strg + b` & `%`|Vertical split |
-|`Ctrl/Strg + b` & `"`|Horizontal split |
-|`Ctrl/Strg + b` & `Arrow Keys`|Move between splits |
-|`Ctrl/Strg + b` & press & hold `opt` + Arrow Keys|Resize splits |
-|`Ctrl/Strg + b` & `{`|Swap splits|
-|`Ctrl/Strg + b` & `x`|Close pane/split |
-|`Ctrl/Strg + b` & `z`|Maximize/Minimize pane |
-|`Ctrl/Strg + b` & `;`|go to the ‘last’ (previously used) pane |
-|`Ctrl/Strg + b` & `[`|Enter **copy** mode. Exit with `q` |
-|`Ctrl/Strg + b` & `w`|List all windows|
+|`Ctrl/Strg + y` & `PgUp/PgDown`|Scroll up / down|
+|`Ctrl/Strg + y` & `,`|Rename tab. Hit `Enter` after typing new name |
+|`Ctrl/Strg + y` & `&`|Close tab |
+|`Ctrl/Strg + y` & `%`|Vertical split |
+|`Ctrl/Strg + y` & `"`|Horizontal split |
+|`Ctrl/Strg + y` & `Arrow Keys`|Move between splits |
+|`Ctrl/Strg + y` & press & hold `opt` + Arrow Keys|Resize splits |
+|`Ctrl/Strg + y` & `{`|Swap splits|
+|`Ctrl/Strg + y` & `x`|Close pane/split |
+|`Ctrl/Strg + y` & `z`|Maximize/Minimize pane |
+|`Ctrl/Strg + y` & `;`|go to the ‘last’ (previously used) pane |
+|`Ctrl/Strg + y` & `[`|Enter **copy** mode. Exit with `q` |
+|`Ctrl/Strg + y` & `w`|List all windows|
 
 > In copy mode you can navigate via vim keys `j`  `k` etc. You can select text (`Shift+v`) and copy it to clipboard by pressing `Enter`.
 > Scrolling in copy mode works via PgUp/Dn
