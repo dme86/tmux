@@ -22,25 +22,28 @@ I tried out multiple keybinds, but I faced issues due to OS or [neovim](https://
 
 | Key | Description |
 |--|--|
-|`Ctrl/Strg + y` & `c`|Open a new tmux tab at the bottom |
+|`Ctrl/Strg + c` & `c`|Open a new tmux tab at the bottom |
 |`Shift + Ctrl` & `->`|Go to right tab with Arrow key |
 |`Shift + Ctrl` & `<-`|Go to left tab with Arrow key |
-|`Ctrl/Strg + y` & `PgUp/PgDown`|Scroll up / down|
-|`Ctrl/Strg + y` & `,`|Rename tab. Hit `Enter` after typing new name |
-|`Ctrl/Strg + y` & `&`|Close tab |
-|`Ctrl/Strg + y` & `%`|Vertical split |
-|`Ctrl/Strg + y` & `"`|Horizontal split |
-|`Ctrl/Strg + y` & `Arrow Keys`|Move between splits |
-|`Ctrl/Strg + y` & press & hold `opt` + Arrow Keys|Resize splits |
-|`Ctrl/Strg + y` & `{`|Swap splits|
-|`Ctrl/Strg + y` & `x`|Close pane/split |
-|`Ctrl/Strg + y` & `z`|Maximize/Minimize pane |
-|`Ctrl/Strg + y` & `;`|go to the ‘last’ (previously used) pane |
-|`Ctrl/Strg + y` & `[`|Enter **copy** mode. Exit with `q` |
-|`Ctrl/Strg + y` & `w`|List all windows|
+|`Ctrl/Strg + c` & `PgUp/PgDown`|Scroll up / down|
+|`Ctrl/Strg + c` & `,`|Rename tab. Hit `Enter` after typing new name |
+|`Ctrl/Strg + c` & `&`|Close tab |
+|`Ctrl/Strg + c` & `%`|Vertical split |
+|`Ctrl/Strg + c` & `"`|Horizontal split |
+|`Ctrl/Strg + ` & `Arrow Keys`|Move between splits |
+|`Ctrl/Strg + c` & press & hold `opt` + Arrow Keys|Resize splits |
+|`Ctrl/Strg + c` & `{`|Swap splits|
+|`Ctrl/Strg + c` & `x`|Close pane/split |
+|`Ctrl/Strg + c` & `z`|Maximize/Minimize pane |
+|`Ctrl/Strg + c` & `;`|go to the ‘last’ (previously used) pane |
+|`Ctrl/Strg + c` & `[`|Enter **copy** mode. Exit with `q` |
+|`Ctrl/Strg + c` & `w`|List all windows|
+|`Ctrl/Strg + c` & `p`|Open Scratchpad (current dir)|
+|`Ctrl/Strg + c` & `d`|Hide Scratchpad|
 
 > In copy mode you can navigate via vim keys `j`  `k` etc. You can select text (`Shift+v`) and copy it to clipboard by pressing `Enter`.
 > Scrolling in copy mode works via PgUp/Dn
 > Searching in copy mode via  `Shift+/`  (classic vim binds)
 > `q` exits copy mode.
+
 
